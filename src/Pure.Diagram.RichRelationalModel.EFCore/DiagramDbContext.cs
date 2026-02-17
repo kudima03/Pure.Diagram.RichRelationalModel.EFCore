@@ -4,7 +4,7 @@ using Pure.Diagram.RichRelationalModel.EFCore.Models.Configurations;
 
 namespace Pure.Diagram.RichRelationalModel.EFCore;
 
-internal sealed class DiagramDbContext(DbContextOptions<DiagramDbContext> options)
+public sealed class DiagramDbContext(DbContextOptions<DiagramDbContext> options)
     : DbContext(options)
 {
     public DbSet<DiagramEFCoreModel> Diagrams => Set<DiagramEFCoreModel>();
