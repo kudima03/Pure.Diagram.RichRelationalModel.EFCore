@@ -8,4 +8,12 @@
     <EnablePackageValidation>true</EnablePackageValidation>
     <!--<PackageValidationBaselineVersion>0.1.0-preview.0.1.0</PackageValidationBaselineVersion>-->
   </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Pure.Diagram.RichRelationalModel.EFCore</PackageId>
+    <RootNamespace>Pure.Diagram.RichRelationalModel.EFCore</RootNamespace>
+    <AssemblyName>Pure.Diagram.RichRelationalModel.EFCore</AssemblyName>
+    <Authors>Dmitry Kurochkin</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kudima03/Pure.Diagram.RichRelationalModel.EFCore</PackageProjectUrl>
+  </PropertyGroup>
 </Project>
