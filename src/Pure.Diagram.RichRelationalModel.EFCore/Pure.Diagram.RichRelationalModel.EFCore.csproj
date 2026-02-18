@@ -4,9 +4,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <IsAotCompatible>true</IsAotCompatible>
+    <IsAotCompatible>false</IsAotCompatible>
     <EnablePackageValidation>true</EnablePackageValidation>
-    <!--<PackageValidationBaselineVersion>0.1.0-preview.0.1.0</PackageValidationBaselineVersion>-->
+    <PackageValidationBaselineVersion>0.1.0-preview.0.1.0</PackageValidationBaselineVersion>
   </PropertyGroup>
   <PropertyGroup>
     <PackageId>Pure.Diagram.RichRelationalModel.EFCore</PackageId>
@@ -16,4 +16,10 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/kudima03/Pure.Diagram.RichRelationalModel.EFCore</PackageProjectUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference
+      Include="Pure.Diagram.RichRelationalModel.EFCore.Models.Configurations"
+      Version="0.1.0-preview.0.1.0"
+    />
+  </ItemGroup>
 </Project>
