@@ -46,7 +46,7 @@ public sealed class DiagramDbContextTests(DiagramDbContextFixture fixture)
     public void OnModelCreatingRegistersSeriesEntity()
     {
         IEntityType? entityType = fixture.Context.Model.FindEntityType(
-            typeof(SeriesEFCoreModel)
+            typeof(DiagramSeriesEFCoreModel)
         );
         Assert.NotNull(entityType);
     }
@@ -73,7 +73,7 @@ public sealed class DiagramDbContextTests(DiagramDbContextFixture fixture)
     public void SeriesEntityHasPrimaryKey()
     {
         IEntityType? entityType = fixture.Context.Model.FindEntityType(
-            typeof(SeriesEFCoreModel)
+            typeof(DiagramSeriesEFCoreModel)
         );
         Assert.NotNull(entityType?.FindPrimaryKey());
     }
@@ -94,7 +94,7 @@ public sealed class DiagramDbContextTests(DiagramDbContextFixture fixture)
     public void SeriesEntityHasForeignKeyToDiagram()
     {
         IEntityType? entityType = fixture.Context.Model.FindEntityType(
-            typeof(SeriesEFCoreModel)
+            typeof(DiagramSeriesEFCoreModel)
         );
         Assert.Contains(
             entityType!.GetForeignKeys(),
