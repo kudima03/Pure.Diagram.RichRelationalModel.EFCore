@@ -6,6 +6,13 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.2.2.0] — 2026-10-24
+
+- Maintenance release: dependency and build updates.
+- Updated `Pure.Diagram.RichRelationalModel.EFCore.Models.Configurations` to
+  `0.1.0-preview.2.2.0`.
+- The package now includes `README.md`.
+
 ## [0.1.0-preview.2.1.0] — 2026-06-25
 
 - Maintenance release: dependency and build updates.
