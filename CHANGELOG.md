@@ -6,6 +6,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.2.3.0] — 2026-11-11
+
+### Added
+
+- Added `net11.0` as a target framework. All existing target frameworks are kept.
+
+### Changed
+
+- Updated `Pure.Diagram.RichRelationalModel.EFCore.Models.Configurations` to
+  `0.1.0-preview.2.3.0`.
+
 ## [0.1.0-preview.2.2.0] — 2026-10-24
 
 - Maintenance release: dependency and build updates.
